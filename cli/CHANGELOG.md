@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.25.1](https://github.com/first-fluke/oh-my-ag/compare/cli-v1.25.0...cli-v1.25.1) (2026-03-04)
+
+
+### Miscellaneous
+
+* **cli:** bump package version to 1.25.1 ([3bcb4d4](https://github.com/first-fluke/oh-my-ag/commit/3bcb4d4bf09a5d8582b03e89fb7859299200dd06))
+* **cli:** update dependencies to latest ([e73285a](https://github.com/first-fluke/oh-my-ag/commit/e73285a2aca442d4c596e2ddcc2b6541e0b210ef))
+
 ## [1.25.0](https://github.com/first-fluke/oh-my-ag/compare/cli-v1.24.0...cli-v1.25.0) (2026-02-19)
 
 
