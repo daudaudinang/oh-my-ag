@@ -17,6 +17,7 @@ Routing rules for Orchestrator and workflow-guide to assign tasks to the correct
 | bug, error, crash, broken, slow | **debug-agent** | |
 | review, security, performance | **qa-agent** | |
 | accessibility, WCAG, a11y | **qa-agent** | |
+| brainstorm, ideate, design, explore, idea, concept | **brainstorm** | Run before pm-agent |
 | plan, breakdown, task, sprint | **pm-agent** | |
 | automatic, parallel, orchestrate | **orchestrator** | |
 | workflow, guide, manual, step-by-step | **workflow-guide** | |
@@ -32,6 +33,8 @@ Routing rules for Orchestrator and workflow-guide to assign tasks to the correct
 | "Fullstack + mobile" | pm → (backend + frontend + mobile) parallel → qa |
 | "Fix bug and review" | debug → qa |
 | "Add feature and test" | pm → relevant agent → qa |
+| "I have an idea for a feature" | brainstorm → pm → relevant agents → qa |
+| "Let's design something new" | brainstorm → pm → relevant agents → qa |
 | "Do everything automatically" | orchestrator (internally pm → agents → qa) |
 | "I'll manage manually" | workflow-guide |
 
@@ -45,6 +48,7 @@ Routing rules for Orchestrator and workflow-guide to assign tasks to the correct
 - frontend + mobile (independent of each other)
 
 ### Sequential Execution Required
+- brainstorm → pm (design comes before planning)
 - pm → all other agents (planning comes first)
 - implementation agent → qa (review after implementation complete)
 - implementation agent → debug (debugging after implementation complete)

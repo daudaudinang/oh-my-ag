@@ -72,6 +72,7 @@
   "antigravity": {
     "skillsPath": ".agent/skills",
     "skills": [
+      "brainstorm",
       "workflow-guide",
       "pm-agent",
       "frontend-agent",

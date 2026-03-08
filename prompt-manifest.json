@@ -1,7 +1,7 @@
 {
   "name": "oh-my-ag",
   "version": "1.25.1",
-  "releaseDate": "2026-03-08T04:35:05.062Z",
+  "releaseDate": "2026-03-08T07:12:45.521Z",
   "repository": "https://github.com/first-fluke/oh-my-ag",
   "files": [
     {
@@ -91,8 +91,8 @@
     },
     {
       "path": ".agent/skills/_shared/skill-routing.md",
-      "sha256": "2274edddacf3b08b923f61b65e0679f57d437759f16e0b56749fa4344001cd9c",
-      "size": 3053
+      "sha256": "edc1f50767157cd7ea7af45964c917de8f18a2fc9fb8630b715f4dcc6b3c164c",
+      "size": 3360
     },
     {
       "path": ".agent/skills/_version.json",
@@ -138,6 +138,11 @@
       "path": ".agent/skills/backend-agent/resources/tech-stack.md",
       "sha256": "540a07888a2cd119144c09dab85a508147da569e883b0d2c6ee4e831d666314b",
       "size": 1200
+    },
+    {
+      "path": ".agent/skills/brainstorm/SKILL.md",
+      "sha256": "2b4cf5d95901c4c26a97976253e159951669bfc432806e5f4809c663fdf1cd2f",
+      "size": 2809
     },
     {
       "path": ".agent/skills/commit/SKILL.md",
@@ -475,6 +480,11 @@
       "size": 2171
     },
     {
+      "path": ".agent/workflows/brainstorm.md",
+      "sha256": "a58db8b951e54a94341e56dd80b5d178cb44ae03baa790e05474df44c2f6a60c",
+      "size": 2920
+    },
+    {
       "path": ".agent/workflows/coordinate-pro.md",
       "sha256": "a6aa1c9485d5e9918419fea6fd4b9a716d3238dd53fdcb0fd7df471a02281958",
       "size": 9521
@@ -524,8 +534,8 @@
     "algorithm": "sha256"
   },
   "metadata": {
-    "skillCount": 11,
-    "workflowCount": 9,
-    "totalFiles": 103
+    "skillCount": 12,
+    "workflowCount": 10,
+    "totalFiles": 105
   }
 }

@@ -64,7 +64,9 @@ describe("skills.ts - Workflow and Config Installation", () => {
 
       // Check if fetch was called for expected files
       const expectedFiles = [
+        "brainstorm.md",
         "coordinate.md",
+        "coordinate-pro.md",
         "debug.md",
         "orchestrate.md",
         "plan.md",

@@ -71,6 +71,7 @@ export const SKILLS: SkillsRegistry = {
     { name: "mobile-agent", desc: "Flutter/Dart mobile specialist" },
   ],
   coordination: [
+    { name: "brainstorm", desc: "Design-first ideation before planning" },
     { name: "pm-agent", desc: "Product manager - task decomposition" },
     { name: "qa-agent", desc: "QA - OWASP, Lighthouse, WCAG" },
     { name: "workflow-guide", desc: "Manual multi-agent orchestration" },
@@ -94,6 +95,7 @@ export const SKILLS: SkillsRegistry = {
 
 export const PRESETS: Record<string, string[]> = {
   fullstack: [
+    "brainstorm",
     "frontend-agent",
     "backend-agent",
     "pm-agent",
@@ -103,8 +105,9 @@ export const PRESETS: Record<string, string[]> = {
     "terraform-infra-engineer",
     "developer-workflow",
   ],
-  frontend: ["frontend-agent", "pm-agent", "qa-agent", "debug-agent", "commit"],
+  frontend: ["brainstorm", "frontend-agent", "pm-agent", "qa-agent", "debug-agent", "commit"],
   backend: [
+    "brainstorm",
     "backend-agent",
     "pm-agent",
     "qa-agent",
@@ -112,8 +115,9 @@ export const PRESETS: Record<string, string[]> = {
     "commit",
     "developer-workflow",
   ],
-  mobile: ["mobile-agent", "pm-agent", "qa-agent", "debug-agent", "commit"],
+  mobile: ["brainstorm", "mobile-agent", "pm-agent", "qa-agent", "debug-agent", "commit"],
   infrastructure: [
+    "brainstorm",
     "terraform-infra-engineer",
     "developer-workflow",
     "pm-agent",
@@ -193,7 +197,9 @@ export async function installShared(targetDir: string): Promise<void> {
 export async function installWorkflows(targetDir: string): Promise<void> {
   const workflowsDir = join(targetDir, ".agent", "workflows");
   const files = [
+    "brainstorm.md",
     "coordinate.md",
+    "coordinate-pro.md",
     "debug.md",
     "orchestrate.md",
     "plan.md",
@@ -332,7 +338,9 @@ export async function installGlobalWorkflows(): Promise<void> {
   }
 
   const files = [
+    "brainstorm.md",
     "coordinate.md",
+    "coordinate-pro.md",
     "debug.md",
     "orchestrate.md",
     "plan.md",
