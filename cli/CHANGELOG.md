@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.27.0](https://github.com/first-fluke/oh-my-ag/compare/cli-v1.26.2...cli-v1.27.0) (2026-03-08)
+
+
+### Features
+
+* **cli:** add star command for GitHub starring with gh CLI integration ([de28489](https://github.com/first-fluke/oh-my-ag/commit/de28489d3e8cdb185a307060061398148d2a3898))
+
 ## [1.26.2](https://github.com/first-fluke/oh-my-ag/compare/cli-v1.26.1...cli-v1.26.2) (2026-03-08)
 
 
